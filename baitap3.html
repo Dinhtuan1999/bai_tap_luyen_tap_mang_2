@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    // tim gia tri lon nhat cua tung hang
+    let arr = [[2,3,1,-5],
+                 [4,7,9,-3],
+                 [8,1,9,-3],
+                 [6,4,5,3]];
+    for (let i =0 ; i <arr[0].length; i++){
+        let max  = arr[i][0];
+        for (let j =1; j <arr.length; j++){
+            // sum += arr[j][i];
+            if (max < arr[i][j]){
+                max = arr[i][j]
+            }
+        }
+        console.log(max+ "<br>");}
+    // tinh tong theo cot chan
+    // let arr = [[2,3,1,-5],
+    //           [4,7,9,-3],
+    //           [8,1,9,-3],
+    //           [6,4,5,3]];
+    // for (let i =0 ; i <arr[0].length; i=i+2) {
+    //     let sum = 0;
+    //     for (let j = 0; j < arr.length; j++) {
+    //         sum += arr[j][i];
+    //     }
+    //     console.log(sum+ "<br>");
+    // }
+    // tinh gia tri tung binh
+    //     let arr = [[2,3,1,-5],
+    //         [4,7,9,-3],
+    //         [8,1,9,-3],
+    //         [6,4,5,3]];
+    //     for (let i =0 ; i <arr.length; i++){
+    //         let sum  = arr[i][0];
+    //         for (let j =1; j <arr[i].length; j++){
+    //             sum += arr[i][j];
+    //
+    //         }
+    //         sum/= arr[i].length;
+    //         console.log(sum+ "<br>");
+    //     }
+
+</script>
+</body>
+</html>
